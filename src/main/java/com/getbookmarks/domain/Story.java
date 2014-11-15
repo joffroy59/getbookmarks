@@ -43,52 +43,28 @@ public class Story {
 		return id;
 	}
 
-	public void setId(String id) {
-		this.id = id;
-	}
-
 	public String getTitle() {
 		return title;
-	}
-
-	public void setTitle(String title) {
-		this.title = title;
 	}
 
 	public String getText() {
 		return text;
 	}
 
-	public void setText(String text) {
-		this.text = text;
-	}
-
 	public String getUrl() {
 		return url;
-	}
-
-	public void setUrl(String url) {
-		this.url = url;
 	}
 
 	public String getFullname() {
 		return fullname;
 	}
 
-	public void setFullname(String fullname) {
-		this.fullname = fullname;
+	public Date getSubmittedOn() {
+		return submittedOn;
 	}
 
 	public String getImage() {
 		return image;
-	}
-
-	public void setImage(String image) {
-		this.image = image;
-	}
-
-	public Date getSubmittedOn() {
-		return submittedOn;
 	}
 
 }
